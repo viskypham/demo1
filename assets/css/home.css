@@ -61,6 +61,14 @@
     padding-right: 4px;
 }
 
+.header__navbar-megamenu {
+    position: absolute;
+}
+
+.header__navbar-submain {
+    display: none;
+}
+
 /* ---> Header__navbar <--- */
 .header__navbar-list li {
     list-style: none;
@@ -92,6 +100,7 @@
 
 .header__navbar-item {
     margin: 0 20px;
+    position: relative;
 }
 
 .header__navbar-item a {
@@ -105,57 +114,68 @@
     padding-right: 14px;
     font-size: 2rem;
 }
-
+    
 /* ---> Container <--- */
 
 .container {
     margin: 0;
     padding: 0;
     max-width: 100%;
+    position: relative;
 }
 
 .container__background {
     background-color: #f7f2ed;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
+    
 }
 
 .container__background-img {
     height: 450px;
     width: 600px;
-    display: block;
+}
+
+.container__background-img-p4 {
     margin-left: 650px;
-    margin-top: -280px;
+    padding-top: 120px;
 }
 
 .container__background-text1 {
     font-size: 1.5rem;
     font-weight: 500;
-    color: #eb7700;
-    display: block;
+    color: #eb7700; 
+}
+
+.container__background-text-p1 {
+    margin-left: 20px;  
     position: absolute;
-    margin-left: 20px;
-    padding-top: 150px;
+    margin-top: 150px;
 }
 
 .container__background-text2 {
-    font-size: 6rem;
+    font-size: 6.2rem;
     font-weight: 700;
     color: #3e516a;
-    display: block;
-    position: absolute;
     width: 600px;
     height: 160px;
-    margin-left: 20px;
-    padding-top: 180px;
+}
+
+.container__background-text-p2 {
+    margin-left: 20px;  
+    position: absolute;
+    margin-top: 170px;
+}
+
+.container__background-text-p3 {
+    margin-left: 20px;  
+    position: absolute;
+    margin-top: 360px;
 }
 
 .container__background-text3 {
     font-size: 1.3rem;
     font-weight: 400;
     color: #8a8b99;
-    display: block;
-    margin-left: 20px;
-    padding-top: 380px;
     width: 600px;
     height: 70px;
 }
@@ -168,10 +188,12 @@
     font-size: 1.4rem;
     font-weight: 500;
     text-align: center;
-    display: block;
+}
+
+.container__background-button-p5 {
     position: absolute;
     margin-left: 20px;
-    margin-top: -80px;
+    margin-top: -100px;
 }
 
 .bi-arrow-right {
@@ -183,10 +205,30 @@
 .container__imageicon-item {
     list-style: none;
     display: inline-block;
+    margin: 65px 50px;
 }
 
 .container__imageicon-item a img {
-   margin-right: 15px;
+    width: 60px;
+    height: 65px;
+}
+
+.imageicon-tittle {
+    text-decoration: none;
+}
+
+.imageicon-tittle h4 {
+    color: #000;
+}
+
+.imageicon-image {
+    margin-bottom: 20px;
+}
+
+.imageicon-span {
+    color: #808080;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 .container__imageicon-list {
